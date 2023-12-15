@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   # Manually point to a different version of uploadcare-ruby where the default
   # setting for uploadcare creds is set to an empty string if an env var isn't
   # already set
-  gem.add_dependency 'uploadcare-ruby', git: 'git@github.com:surecritic/uploadcare-ruby.git', branch: 'sc-version'
+  gem.add_dependency 'uploadcare-ruby', '4.3.7', git: 'git@github.com:surecritic/uploadcare-ruby.git'
 
   gem.add_development_dependency 'rspec', '> 3.4.4'
   gem.add_development_dependency 'rspec-rails'
