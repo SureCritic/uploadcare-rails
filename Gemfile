@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-
-gem 'uploadcare-ruby', git: 'git@github.com:surecritic/uploadcare-ruby.git', branch: 'test-sc-version'
+gem 'byebug'
 
 # Specify your gem's dependencies in uploadcare-rails.gemspec
 gemspec
