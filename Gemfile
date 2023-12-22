@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'uploadcare-ruby', git: 'git@github.com:surecritic/uploadcare-ruby.git', branch: 'sc-version'
+gem 'uploadcare-ruby', git: 'git@github.com:surecritic/uploadcare-ruby.git', branch: 'test-sc-version'
 
 # Specify your gem's dependencies in uploadcare-rails.gemspec
 gemspec
